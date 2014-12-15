@@ -1,1 +1,17 @@
-Placeholder for content that will be generated when the solution is built for the first time
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{5bb4bd69-9b22-41a7-b342-e63e4d6485ea}</TemplateID>
+		<Name Package="{3f2f1297-ae09-4f92-823b-d267afd64139}" ID="103"/>
+		<Description Package="{3f2f1297-ae09-4f92-823b-d267afd64139}" ID="102"/>
+		<Icon Package="{3f2f1297-ae09-4f92-823b-d267afd64139}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>NHibernateDesigner.nh</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.nh">nh.nh</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.nh.diagram">nh.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

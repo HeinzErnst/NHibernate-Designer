@@ -1,0 +1,15 @@
+﻿[$RootKey$\Generators] 
+[$RootKey$\Generators\{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}] 
+[$RootKey$\Generators\{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}\TestCodeGenerator] 
+@="Custom tool that generates C# files " 
+"CLSID"="{CC198948-572D-41E2-BF33-FF3CB24AF5EA}" 
+"GeneratesDesignTimeSource"=dword:00000001 
+[$RootKey$\CLSID] 
+[$RootKey$\CLSID\{CC198948-572D-41E2-BF33-FF3CB24AF5EA}] 
+@=" Custom tool that generates C# files  " 
+"Class"=" BrainTec.NHibernateDesigner.CodeGenerator" 
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL" 
+"ThreadingModel"="Both" 
+"CodeBase"="$PackageFolder$\BrainTec.NHibernateDesigner.DslPackage.dll" 
+[$RootKey$\Generators\{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}\.nh] 
+@=" TestCodeGenerator "

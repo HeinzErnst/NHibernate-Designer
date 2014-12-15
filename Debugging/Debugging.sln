@@ -1,23 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 12
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugging", "Debugging.csproj", "{a6bc9845-6bf2-42f8-913e-2d52fea2fdde}"
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugging", "Debugging.csproj", "{A6BC9845-6BF2-42F8-913E-2D52FEA2FDDE}"
 EndProject
 Global
-	GlobalSection(TextTemplating) = postSolution
-		TextTemplating = 1
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{a6bc9845-6bf2-42f8-913e-2d52fea2fdde}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{a6bc9845-6bf2-42f8-913e-2d52fea2fdde}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{a6bc9845-6bf2-42f8-913e-2d52fea2fdde}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{a6bc9845-6bf2-42f8-913e-2d52fea2fdde}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BC9845-6BF2-42F8-913E-2D52FEA2FDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BC9845-6BF2-42F8-913E-2D52FEA2FDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BC9845-6BF2-42F8-913E-2D52FEA2FDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BC9845-6BF2-42F8-913E-2D52FEA2FDDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
 	EndGlobalSection
 EndGlobal

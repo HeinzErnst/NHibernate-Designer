@@ -1,0 +1,22 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" hostspecific="True"  #>
+<#@ output extension=".nhgen" #> 
+<#@ NHibernateDesigner processor="NHibernateDesignerDirectiveProcessor"  requires="fileName='Diagramm1.nh'" #>
+
+<#
+  foreach (ExampleElement element in this.ExampleModel.Elements)
+  {
+#>
+	<#= element.Name #>
+
+	<#
+	  foreach (ExampleElement element2 in element.Targets)
+	  {
+	#>
+	Target = 	<#= element2.Name #>
+
+	<#    
+	  }
+	#>
+<#    
+  }
+#>

@@ -1,11 +1,12 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.10318</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{a6bc9845-6bf2-42f8-913e-2d52fea2fdde}</ProjectGuid>
+    <ProjectGuid>{A6BC9845-6BF2-42F8-913E-2D52FEA2FDDE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Debugging</RootNamespace>
@@ -44,6 +45,18 @@
       <SubType>
       </SubType>
     </None>
+    <None Include="NHibernateDesigner1.nh">
+      <Generator>TestCodeGenerator</Generator>
+      <LastGenOutput>NHibernateDesigner1.nhgen</LastGenOutput>
+    </None>
+    <None Include="NHibernateDesigner1.nh.diagram">
+      <DependentUpon>NHibernateDesigner1.nh</DependentUpon>
+    </None>
+    <None Include="NHibernateDesigner1.nhgen">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NHibernateDesigner1.nh</DependentUpon>
+    </None>
     <None Include="NHibernateDesignerReport.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NHibernateDesignerReport.txt</LastGenOutput>
@@ -51,14 +64,6 @@
     <None Include="NHibernateDesignerReportVB.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NHibernateDesignerReportVB.txt</LastGenOutput>
-    </None>
-    <None Include="Sample.nh" />
-    <None Include="Sample.nh.diagram">
-      <DependentUpon>Sample.nh</DependentUpon>
-    </None>
-    <None Include="Test.nh" />
-    <None Include="Test.nh.diagram">
-      <DependentUpon>Test.nh</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

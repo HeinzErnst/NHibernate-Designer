@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exampleModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="89b330f2-40b5-442d-ad4a-c74f2f06b346" xmlns="http://schemas.microsoft.com/dsltools/NHibernateDesigner">
+  <elements>
+    <exampleElement Id="c5c2d5f9-60d7-41b9-bea8-feed28489b47" name="ExampleElement1">
+      <targets>
+        <exampleElementMoniker name="/89b330f2-40b5-442d-ad4a-c74f2f06b346/ExampleElement2" />
+        <exampleElementMoniker name="/89b330f2-40b5-442d-ad4a-c74f2f06b346/ExampleElement3" />
+      </targets>
+    </exampleElement>
+    <exampleElement Id="7d9976f6-9b23-4779-bb98-caf147277778" name="ExampleElement2">
+      <targets>
+        <exampleElementMoniker name="/89b330f2-40b5-442d-ad4a-c74f2f06b346/ExampleElement3" />
+      </targets>
+    </exampleElement>
+    <exampleElement Id="51b8e6c9-7ce6-4e0c-b6df-1e16dbf84c5a" name="ExampleElement3" />
+    <exampleElement Id="e1b844c0-9184-4b6e-aeeb-aced84bfd5c2" name="ExampleElement4" />
+  </elements>
+</exampleModel>

@@ -1,16 +1,24 @@
 ﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
 <#@ output extension=".txt" #>
-<#@ NHibernateDesigner processor="NHibernateDesignerDirectiveProcessor" requires="fileName='Sample.nh'" #>
+<#@ NHibernateDesigner processor="NHibernateDesignerDirectiveProcessor" requires="fileName='NHibernateDesigner1.nh'" #>
 
 Generated material. Generating code in C#.
 
 <#
-  // When you change the DSL Definition, some of the code below may not work.
-
   foreach (ExampleElement element in this.ExampleModel.Elements)
   {
 #>
 	<#= element.Name #>
+
+	<#
+	  foreach (ExampleElement element2 in element.Targets)
+	  {
+	#>
+	Target = 	<#= element2.Name #>
+
+	<#    
+	  }
+	#>
 <#    
   }
 #>
