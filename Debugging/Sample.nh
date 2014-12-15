@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exampleModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="efccdd67-26e9-4ce6-af98-406067d7fe05" xmlns="http://schemas.microsoft.com/dsltools/NHibernateDesigner">
+  <elements>
+    <exampleElement Id="0147da57-cb38-4224-861a-e01da61089a5" name="ExampleElement1">
+      <targets>
+        <exampleElementMoniker name="/efccdd67-26e9-4ce6-af98-406067d7fe05/ExampleElement2" />
+      </targets>
+    </exampleElement>
+    <exampleElement Id="f84524b5-c168-496b-80d3-04d0135276aa" name="ExampleElement2" />
+  </elements>
+</exampleModel>

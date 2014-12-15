@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nHibernateDesignerDiagram dslVersion="1.0.0.0" Id="35db59e8-0f00-4209-a5a8-215342f63e2b" absoluteBounds="0, 0, 11, 8.5" name="Sample">
+  <exampleModelMoniker Id="efccdd67-26e9-4ce6-af98-406067d7fe05" />
+  <nestedChildShapes>
+    <exampleShape Id="56dd86be-aebb-4d66-882b-a229efbc40d7" absoluteBounds="0.5, 1.75, 2, 0.75">
+      <exampleElementMoniker name="/efccdd67-26e9-4ce6-af98-406067d7fe05/ExampleElement1" />
+    </exampleShape>
+    <exampleShape Id="440fb217-9b84-45b1-9884-4a88a7e22f74" absoluteBounds="3, 0.5, 2, 0.75">
+      <exampleElementMoniker name="/efccdd67-26e9-4ce6-af98-406067d7fe05/ExampleElement2" />
+    </exampleShape>
+    <exampleConnector Id="fa71aeb7-9569-4c67-b68c-4120a5a7ffe8" edgePoints="[(1.5 : 1.75); (1.5 : 0.875); (3 : 0.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="9e9bb806-8140-497d-9191-3e2883012972">
+      <nodes>
+        <exampleShapeMoniker Id="56dd86be-aebb-4d66-882b-a229efbc40d7" />
+        <exampleShapeMoniker Id="440fb217-9b84-45b1-9884-4a88a7e22f74" />
+      </nodes>
+    </exampleConnector>
+  </nestedChildShapes>
+</nHibernateDesignerDiagram>
